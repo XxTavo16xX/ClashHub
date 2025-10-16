@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1760588424 source:c:\users\arman\documents\semestre 3\poo\clashhub\main.cpp
+	<iostream>
+	<string>
+	<ctype.h>
+	"Administrador.h"
+	"Usuario.h"
+	"Equipo.h"
+	"Torneo.h"
+	"Juego.h"
+	"Utils_Menu.h"
+	"Utils_Menu_Handler.h"
+	"Utils_Input_Listener.h"
+
+1760582930 c:\users\arman\documents\semestre 3\poo\clashhub\include\administrador.h
+
+1760582761 c:\users\arman\documents\semestre 3\poo\clashhub\include\usuario.h
+
+1760582773 c:\users\arman\documents\semestre 3\poo\clashhub\include\equipo.h
+
+1760582779 c:\users\arman\documents\semestre 3\poo\clashhub\include\torneo.h
+
+1760582852 c:\users\arman\documents\semestre 3\poo\clashhub\include\juego.h
+
+1760587535 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_menu.h
+
+1760582930 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\administrador.cpp
+	"Administrador.h"
+
+1760582790 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\bracket.cpp
+	"Bracket.h"
+
+1760582790 c:\users\arman\documents\semestre 3\poo\clashhub\include\bracket.h
+
+1760582773 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\equipo.cpp
+	"Equipo.h"
+
+1760582853 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\juego.cpp
+	"Juego.h"
+
+1760582799 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\match.cpp
+	"Match.h"
+
+1760582799 c:\users\arman\documents\semestre 3\poo\clashhub\include\match.h
+
+1760582779 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\torneo.cpp
+	"Torneo.h"
+
+1760582761 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\usuario.cpp
+	"Usuario.h"
+
+1760587893 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu.cpp
+	"Utils_Menu.h"
+	<cstdlib>
+	<iostream>
+	<string>
+	"Utils_Input_Listener.h"
+
+1760587546 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_input_listener.cpp
+	"Utils_Input_Listener.h"
+	<iostream>
+	<string>
+
+1760587542 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_input_listener.h
+	<iostream>
+	<string>
+
+1760588331 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_menu_handler.h
+
+1760588438 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu_handler.cpp
+	"Utils_Menu_Handler.h"
+	<iostream>
+	<string>
+	"Utils_Input_Listener.h"
+	"Utils_Menu.h"
+

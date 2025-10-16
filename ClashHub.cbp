@@ -41,6 +41,9 @@
 		<Unit filename="include/Match.h" />
 		<Unit filename="include/Torneo.h" />
 		<Unit filename="include/Usuario.h" />
+		<Unit filename="include/Utils_Input_Listener.h" />
+		<Unit filename="include/Utils_Menu.h" />
+		<Unit filename="include/Utils_Menu_Handler.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Administrador.cpp" />
 		<Unit filename="src/Bracket.cpp" />
@@ -49,6 +52,9 @@
 		<Unit filename="src/Match.cpp" />
 		<Unit filename="src/Torneo.cpp" />
 		<Unit filename="src/Usuario.cpp" />
+		<Unit filename="src/Utils_Input_Listener.cpp" />
+		<Unit filename="src/Utils_Menu.cpp" />
+		<Unit filename="src/Utils_Menu_Handler.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
