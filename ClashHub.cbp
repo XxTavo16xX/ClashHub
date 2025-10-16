@@ -36,25 +36,40 @@
 		</Compiler>
 		<Unit filename="include/Administrador.h" />
 		<Unit filename="include/Bracket.h" />
+		<Unit filename="include/Database.h" />
 		<Unit filename="include/Equipo.h" />
 		<Unit filename="include/Juego.h" />
 		<Unit filename="include/Match.h" />
+		<Unit filename="include/Referencia_de_Equipo.h" />
+		<Unit filename="include/Referencia_de_Miembro_de_Equipo.h" />
+		<Unit filename="include/Team_Reference.h" />
 		<Unit filename="include/Torneo.h" />
 		<Unit filename="include/Usuario.h" />
+		<Unit filename="include/Utils_Database.h" />
 		<Unit filename="include/Utils_Input_Listener.h" />
 		<Unit filename="include/Utils_Menu.h" />
 		<Unit filename="include/Utils_Menu_Handler.h" />
+		<Unit filename="include/Utils_Random.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Administrador.cpp" />
 		<Unit filename="src/Bracket.cpp" />
+		<Unit filename="src/Database.tpp">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
 		<Unit filename="src/Equipo.cpp" />
 		<Unit filename="src/Juego.cpp" />
 		<Unit filename="src/Match.cpp" />
+		<Unit filename="src/Referencia_de_Equipo.cpp" />
+		<Unit filename="src/Referencia_de_Miembro_de_Equipo.cpp" />
+		<Unit filename="src/Team_Reference.cpp" />
 		<Unit filename="src/Torneo.cpp" />
 		<Unit filename="src/Usuario.cpp" />
+		<Unit filename="src/Utils_Database.cpp" />
 		<Unit filename="src/Utils_Input_Listener.cpp" />
 		<Unit filename="src/Utils_Menu.cpp" />
 		<Unit filename="src/Utils_Menu_Handler.cpp" />
+		<Unit filename="src/Utils_Random.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

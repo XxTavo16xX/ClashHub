@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1760588424 source:c:\users\arman\documents\semestre 3\poo\clashhub\main.cpp
+1760588522 source:c:\users\arman\documents\semestre 3\poo\clashhub\main.cpp
 	<iostream>
 	<string>
 	<ctype.h>
@@ -14,9 +14,15 @@
 
 1760582930 c:\users\arman\documents\semestre 3\poo\clashhub\include\administrador.h
 
-1760582761 c:\users\arman\documents\semestre 3\poo\clashhub\include\usuario.h
+1760604530 c:\users\arman\documents\semestre 3\poo\clashhub\include\usuario.h
+	<vector>
+	<map>
+	"Referencia_de_Equipo.h"
 
-1760582773 c:\users\arman\documents\semestre 3\poo\clashhub\include\equipo.h
+1760596137 c:\users\arman\documents\semestre 3\poo\clashhub\include\equipo.h
+	<string>
+	<vector>
+	"Referencia_de_Miembro_de_Equipo.h"
 
 1760582779 c:\users\arman\documents\semestre 3\poo\clashhub\include\torneo.h
 
@@ -32,8 +38,11 @@
 
 1760582790 c:\users\arman\documents\semestre 3\poo\clashhub\include\bracket.h
 
-1760582773 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\equipo.cpp
+1760596730 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\equipo.cpp
 	"Equipo.h"
+	<vector>
+	"Referencia_de_Miembro_de_Equipo.h"
+	"Utils_Random.h"
 
 1760582853 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\juego.cpp
 	"Juego.h"
@@ -46,31 +55,106 @@
 1760582779 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\torneo.cpp
 	"Torneo.h"
 
-1760582761 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\usuario.cpp
+1760604548 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\usuario.cpp
 	"Usuario.h"
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+	"Referencia_de_Equipo.h"
 
-1760587893 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu.cpp
+1760603820 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu.cpp
 	"Utils_Menu.h"
 	<cstdlib>
 	<iostream>
 	<string>
+	<thread>
+	<chrono>
 	"Utils_Input_Listener.h"
+	"Usuario.h"
+	"Database.h"
 
-1760587546 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_input_listener.cpp
+1760603265 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_input_listener.cpp
 	"Utils_Input_Listener.h"
 	<iostream>
 	<string>
 
-1760587542 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_input_listener.h
+1760603218 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_input_listener.h
 	<iostream>
 	<string>
 
 1760588331 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_menu_handler.h
 
-1760588438 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu_handler.cpp
+1760603313 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_menu_handler.cpp
 	"Utils_Menu_Handler.h"
 	<iostream>
 	<string>
 	"Utils_Input_Listener.h"
 	"Utils_Menu.h"
+
+1760601375 c:\users\arman\documents\semestre 3\poo\clashhub\include\referencia_de_equipo.h
+	<iostream>
+	<string>
+
+1760595653 c:\users\arman\documents\semestre 3\poo\clashhub\include\referencia_de_miembro_de_equipo.h
+	<iostream>
+	<string>
+
+1760601286 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\referencia_de_equipo.cpp
+	"Referencia_de_Equipo.h"
+	<iostream>
+	<string>
+
+1760596783 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\referencia_de_miembro_de_equipo.cpp
+	"Referencia_de_Miembro_de_Equipo.h"
+
+1760595889 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_random.cpp
+	"Utils_Random.h"
+	<string>
+	<random>
+	<ctime>
+
+1760596187 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_random.h
+	<iostream>
+	<string>
+
+1760596195 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\team_reference.cpp
+	"Team_Reference.h"
+
+1760595608 c:\users\arman\documents\semestre 3\poo\clashhub\include\team_reference.h
+	<iostream>
+	<string>
+
+1760600497 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\utils_database.cpp
+	"Utils_Database.h"
+	<string>
+	<fstream>
+	<filesystem>
+	<iostream>
+
+1760601394 c:\users\arman\documents\semestre 3\poo\clashhub\include\utils_database.h
+	<iostream>
+	<string>
+	<fstream>
+	<filesystem>
+
+1760601567 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\database.cpp
+	"Database.h"
+	<sstream>
+
+1760602686 c:\users\arman\documents\semestre 3\poo\clashhub\include\database.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"Utils_Database.h"
+	"Database.tpp"
+
+1760601567 source:c:\users\arman\documents\semestre 3\poo\clashhub\src\database.tpp
+	"Database.h"
+	<sstream>
+
+1760602929 c:\users\arman\documents\semestre 3\poo\clashhub\include\database.tpp
+	"Database.h"
+	<sstream>
 

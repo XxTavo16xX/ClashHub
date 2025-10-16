@@ -11,7 +11,9 @@
 using namespace std;
 
 
-int Utils_Input_Listener::get_User_Input_Selection() {
+int Utils_Input_Listener::get_User_Input_Selection(string input_label) {
+
+    cout<<input_label;
 
     int temporal_string;
 
@@ -22,7 +24,9 @@ int Utils_Input_Listener::get_User_Input_Selection() {
 
 }
 
-string Utils_Input_Listener::get_User_Text_Input() {
+string Utils_Input_Listener::get_User_Text_Input(string input_label) {
+
+    cout<<input_label;
 
     string temporal_string;
 

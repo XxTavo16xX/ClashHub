@@ -12,8 +12,8 @@ using namespace std;
 class Utils_Input_Listener {
     public:
 
-        static int get_User_Input_Selection();
-        static string get_User_Text_Input();
+        static int get_User_Input_Selection(string input_label);
+        static string get_User_Text_Input(string input_label);
 
 };
 
